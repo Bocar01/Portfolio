@@ -43,3 +43,27 @@ body{
 a:link {
     text-decoration: none;
 }
+
+/* Petite taille d'écran */
+@media (max-width: 576px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Taille moyenne d'écran */
+@media (min-width: 577px) and (max-width: 768px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Grande taille d'écran */
+@media (min-width: 769px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+}
