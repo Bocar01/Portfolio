@@ -1,0 +1,50 @@
+/* .bg-gradient-primary-to-secondary{
+  background:black;
+} */
+.text-gradient1{
+   color:black;
+}
+/* La couleur arriere plan de la partie body */
+body{
+    background-color: white;
+}
+/* le lien de navigation */
+.nav-link{
+    color:white;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+/* le boutton de la menu */
+.navbar-toggler {
+    background-color: #ffffff;
+    color: red;
+}
+
+.navbar{
+    --bs-navbar-hover-color: white;
+}
+
+/* le profile de la page principale */
+.profile {
+   background-color: black;
+   margin-top: 70px;
+}
+
+/* l'image du .profile */
+.profile-img{
+    margin-bottom: 50px;
+}
+
+/* Pour enlever la barre de souligement du lien */
+a:link {
+    text-decoration: none;
+}
+img{
+
+    height: 700px;
+    margin: 0px auto;
+}
